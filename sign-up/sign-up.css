@@ -1,0 +1,37 @@
+.register-card h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.register-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 50%;
+    margin: 3% auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px hsl(0, 0%, 80%);
+    background-color: hsl(271, 100%, 70%);
+    gap: 2em;
+}
+
+input {
+    width: 80%;
+    height: 38px;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+button {
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: hsl(256, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(256, 100%, 50%);
+}
