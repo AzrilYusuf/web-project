@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 3%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    gap: 5px;
+}
